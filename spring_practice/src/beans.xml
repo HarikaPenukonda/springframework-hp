@@ -5,8 +5,10 @@
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	
-	<bean name="cc" class="com.practice.ioc.CreditCardPaymentService"></bean>
-	<bean name="pp" class="com.practice.ioc.PayPalPaymentService"></bean>	
+	<!-- <bean name="cc" class="com.practice.ioc.CreditCardPaymentService"></bean>
+	<bean name="pp" class="com.practice.ioc.PayPalPaymentService"></bean> -->	
+	
+	<bean name="payment" class="com.practice.ioc.CreditCardPaymentService"></bean>
 		
 		
 </beans>
