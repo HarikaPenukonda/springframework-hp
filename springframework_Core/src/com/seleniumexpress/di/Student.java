@@ -2,8 +2,9 @@ package com.seleniumexpress.di;
 
 public class Student {
 	
-	// creating object
-	MathCheat mathCheat = new MathCheat();
+	
+	//MathCheat mathCheat = new MathCheat(); -> tight coupling using new keyword
+	MathCheat mathCheat;
 	
 	public void cheat() {
 		mathCheat.cheating();
