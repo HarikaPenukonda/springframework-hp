@@ -7,7 +7,7 @@ public class Client {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext("beans4.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("beans5.xml");
 		System.out.println("config file loaded...");
 		Student stu = context.getBean("student",Student.class);
 		stu.cheat();
