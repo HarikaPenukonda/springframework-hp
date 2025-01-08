@@ -8,8 +8,7 @@
 	<bean id="scienceCheatObjectValue" class="com.seleniumexpress.loosecoupling.ScienceCheat"></bean>
 		
 	<bean id="student" class="com.seleniumexpress.loosecoupling.Student">
-		<!-- <property name="id" value="1001"></property> -->
-		<property name="scienceCheat" ref="scienceCheatObjectValue"></property>
+		<property name="cheat" ref="scienceCheatObjectValue"></property>
 	</bean>
 	
 	

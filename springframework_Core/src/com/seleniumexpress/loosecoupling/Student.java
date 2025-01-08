@@ -2,15 +2,28 @@ package com.seleniumexpress.loosecoupling;
 
 public class Student {
 	
-	private ScienceCheat scienceCheat;
+	private Cheat cheat;
 
-	public void setScienceCheat(ScienceCheat scienceCheat) {
-		this.scienceCheat = scienceCheat;
+	public void setCheat(Cheat cheat) {
+		this.cheat = cheat;
 	}
 	
-	public void cheat() {
-		scienceCheat.cheating();
+	public void cheating() {
+		cheat.cheat();
 	}
+	
+	/*
+	 * private ScienceCheat scienceCheat;
+	 * 
+	 * public void setScienceCheat(ScienceCheat scienceCheat) { this.scienceCheat =
+	 * scienceCheat; }
+	 * 
+	 * public void cheat() { scienceCheat.cheating(); }
+	 */
+	
+	/*	so instead of changing the source eg. from mathCheat to scienceCheat
+	 *  which is tight coupling, we can use interface reference for loose coupling
+	 * */    
 	
 	
 	/*

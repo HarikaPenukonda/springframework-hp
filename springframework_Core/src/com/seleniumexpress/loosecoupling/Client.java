@@ -10,7 +10,7 @@ public class Client {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans5.xml");
 		System.out.println("config file loaded...");
 		Student stu = context.getBean("student",Student.class);
-		stu.cheat();
+		stu.cheating();
 
 		
 		/* Here, if we add another student who is using the same mathCheat 

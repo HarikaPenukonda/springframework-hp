@@ -1,13 +1,11 @@
 package com.seleniumexpress.loosecoupling;
 
-public class MathCheat {
-	
-	public MathCheat(){
-		System.out.println("MathCheat constructor is called...");
-	}
-	
-	public void cheating() {
+public class MathCheat implements Cheat{
+
+	@Override
+	public void cheat() {
 		System.out.println("Math cheating started...");
+		
 	}
 
 }
