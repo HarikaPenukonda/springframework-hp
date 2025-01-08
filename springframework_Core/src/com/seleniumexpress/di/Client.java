@@ -1,13 +1,22 @@
 package com.seleniumexpress.di;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class Client {
 
 	public static void main(String[] args) {
-		Student student = new Student();
-		MathCheat cheat = new MathCheat();
-		student.setMathCheat(cheat);
-		student.cheat();
-
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("beans4.xml");
+		System.out.println("config file loaded...");
+		Student stu = context.getBean("student",Student.class);
+		stu.cheat();
+		/*
+		 * Student student = new Student(); 
+		 * MathCheat cheat = new MathCheat();
+		 * student.setMathCheat(cheat);
+		 */
+		
 	}
 
 }
