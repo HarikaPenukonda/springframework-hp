@@ -11,6 +11,9 @@ public class Client {
 		System.out.println("config file loaded...");
 		Student stu = context.getBean("student",Student.class);
 		stu.cheat();
+		
+		AnotherStudent ans = context.getBean("anotherstudent",AnotherStudent.class);
+		ans.cheat();
 		/*
 		 * Student student = new Student(); 
 		 * MathCheat cheat = new MathCheat();

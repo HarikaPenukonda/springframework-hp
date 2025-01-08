@@ -22,6 +22,7 @@ public class Student {
 
 	public void cheat() {
 		mathCheat.cheating();
+		System.out.println("My id is " + id);
 	}
 
 	

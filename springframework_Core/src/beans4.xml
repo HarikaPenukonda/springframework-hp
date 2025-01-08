@@ -10,6 +10,13 @@
 			<bean class="com.seleniumexpress.di.MathCheat"></bean>
 		</property>
 	</bean>
+	
+	<bean id="anotherstudent" class="com.seleniumexpress.di.AnotherStudent">
+		<property name="id" value="1002"></property>
+		<property name="mathCheat">
+			<bean class="com.seleniumexpress.di.MathCheat"></bean>
+		</property>
+	</bean>
 		
 		<!-- Student student = new Student(); 
 		 	 MathCheat cheat = new MathCheat();
