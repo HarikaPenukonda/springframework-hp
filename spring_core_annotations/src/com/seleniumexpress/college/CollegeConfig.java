@@ -14,7 +14,11 @@ public class CollegeConfig {
 	
 	@Bean
 	public College collegeBean() {
-		College college = new College(principleBean());
+		// injecting the principleBean using constructor injection
+		//College college = new College(principleBean());
+		// injecting the principleBean using setter injection
+		College college = new College();
+		college.setPrinciple(principleBean());
 		return college;
 	}
 }
