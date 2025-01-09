@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 //@ComponentScan(basePackages = "com.seleniumexpress.college")
 public class CollegeConfig {
 	
-	@Bean
+	@Bean // Dependency Injection using Bean annotation
 	public Principle principleBean() {
 		return new Principle();
 	}
@@ -16,6 +16,7 @@ public class CollegeConfig {
 	public College collegeBean() {
 		// injecting the principleBean using constructor injection
 		//College college = new College(principleBean());
+		
 		// injecting the principleBean using setter injection
 		College college = new College();
 		college.setPrinciple(principleBean());
