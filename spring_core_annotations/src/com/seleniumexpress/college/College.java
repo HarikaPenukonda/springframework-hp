@@ -1,6 +1,8 @@
 package com.seleniumexpress.college;
 
-//@Component("collegeBean")
+import org.springframework.stereotype.Component;
+
+@Component
 public class College {
 	
 	private Principle principle;

@@ -1,5 +1,8 @@
 package com.seleniumexpress.college;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Principle {
 	
 	public void principleInfo() {
