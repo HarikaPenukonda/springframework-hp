@@ -6,6 +6,10 @@ public class Human {
 	
 	private Heart heart;
 	
+	public Human() {
+		
+	}
+	
 	@Autowired
 	public Human(Heart heart) {
 		super();
