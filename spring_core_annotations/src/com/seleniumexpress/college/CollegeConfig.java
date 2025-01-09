@@ -8,8 +8,13 @@ import org.springframework.context.annotation.Configuration;
 public class CollegeConfig {
 	
 	@Bean
+	public Principle principleBean() {
+		return new Principle();
+	}
+	
+	@Bean
 	public College collegeBean() {
-		College college = new College();
+		College college = new College(principleBean());
 		return college;
 	}
 }
