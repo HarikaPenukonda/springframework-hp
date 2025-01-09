@@ -11,6 +11,7 @@ public class Client {
 		System.out.println("config file... loaded... in java");
 		College bean = context.getBean("collegeBean",College.class);
 		System.out.println("The bean is created by spring " + bean);
+		bean.test();
 	}
 
 }
