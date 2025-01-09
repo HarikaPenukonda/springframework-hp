@@ -9,8 +9,14 @@
 		
 	<context:annotation-config/>
 		
-	<bean id="heartObjectValue" class="com.seleniumexpress.autowire.Heart"></bean>
-	<bean id="octopusHeart" class="com.seleniumexpress.autowire.Heart"></bean>
+	<bean id="humanHeart" class="com.seleniumexpress.autowire.Heart">
+		<property name="nameOfAnimal" value="Human"></property>
+		<property name="noOfHeart" value="1"></property>
+	</bean>
+	<bean id="octopusHeart" class="com.seleniumexpress.autowire.Heart">
+	<property name="nameOfAnimal" value="Octopus"></property>
+		<property name="noOfHeart" value="3"></property>
+	</bean>
 	
 	<bean id="human" class="com.seleniumexpress.autowire.Human"></bean>	
 </beans>
