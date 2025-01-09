@@ -12,7 +12,7 @@
 		<bean id="email" class="com.practice.autowire.EmailNotificationService"></bean>
 		<!-- <bean id="sms" class="com.practice.autowire.SMSNotificationService"></bean> -->
 	
-		<bean id="notificationService" class="com.practice.autowire.NotificationManager" autowire="byType">
+		<bean id="notificationService" class="com.practice.autowire.NotificationManager">
 		</bean>
 		
 </beans>
