@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans2.xml");
-		NotificationManager bean = context.getBean("nm",NotificationManager.class);
+		NotificationManager bean = context.getBean("notificationService",NotificationManager.class);
 		bean.notifications("Admin", "Hello World");
 	}
 
