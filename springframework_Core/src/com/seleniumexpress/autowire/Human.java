@@ -1,9 +1,12 @@
 package com.seleniumexpress.autowire;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Human {
 	
 	private Heart heart;
 	
+	@Autowired
 	public Human(Heart heart) {
 		super();
 		this.heart = heart;
