@@ -7,5 +7,6 @@
 		http://www.springframework.org/schema/context
 		https://www.springframework.org/schema/context/spring-context.xsd">
 		
-		<bean id="college" class="spring_core_annotations.College"></bean>
+		<context:component-scan base-package="com.seleniumexpress.college"></context:component-scan> 
+		<!-- <bean id="college" class="spring_core_annotations.College"></bean> -->
 </beans>

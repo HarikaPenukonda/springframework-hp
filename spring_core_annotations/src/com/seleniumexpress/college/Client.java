@@ -1,4 +1,4 @@
-package spring_core_annotations;
+package com.seleniumexpress.college;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
