@@ -6,8 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class College {
 	
+	@Autowired
 	private Principle principle;
 	
+	@Autowired
 	private Teacher teacher;
 	
 	/*
@@ -15,16 +17,13 @@ public class College {
 	 * { this.principle = principle; }
 	 */
 	
-	@Autowired
-	public void setPrinciple(Principle principle) {
-		this.principle = principle;
-		System.out.println("calling setter method...");
-	}
-	
-	@Autowired
-	public void setTeacher(Teacher teacher) {
-		this.teacher = teacher;
-	}
+	/*
+	 * @Autowired public void setPrinciple(Principle principle) { this.principle =
+	 * principle; System.out.println("calling setter method..."); }
+	 * 
+	 * @Autowired public void setTeacher(Teacher teacher) { this.teacher = teacher;
+	 * }
+	 */
 
 	public void test() {
 		System.out.println("tesing method...");
