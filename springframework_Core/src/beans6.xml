@@ -4,8 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 		
-	<bean id="heartObject" class="com.seleniumexpress.autowire.Heart"></bean>
-	<bean id="human" class="com.seleniumexpress.autowire.Human">
-	<property name="heart" ref="heartObject"></property>
+	<bean id="heart" class="com.seleniumexpress.autowire.Heart"></bean>
+	<bean id="human" class="com.seleniumexpress.autowire.Human" autowire="byName">
 	</bean>	
 </beans>

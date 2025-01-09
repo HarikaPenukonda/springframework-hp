@@ -6,6 +6,7 @@ public class Human {
 
 	public void setHeart(Heart heart) {
 		this.heart = heart;
+		System.out.println("setter method called...");
 	}
 	
 	public void pump() {
