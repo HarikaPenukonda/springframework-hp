@@ -1,5 +1,6 @@
 package com.seleniumexpress.college;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -14,11 +15,13 @@ public class College {
 	 * { this.principle = principle; }
 	 */
 	
+	@Autowired
 	public void setPrinciple(Principle principle) {
 		this.principle = principle;
 		System.out.println("calling setter method...");
 	}
-
+	
+	@Autowired
 	public void setTeacher(Teacher teacher) {
 		this.teacher = teacher;
 	}
