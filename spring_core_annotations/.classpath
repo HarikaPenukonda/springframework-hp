@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/OpenJDK 20.0.2 [20.0.2]">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-websocket-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-websocket-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-websocket-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webmvc-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webmvc-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webmvc-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webflux-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webflux-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webflux-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-web-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-web-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-web-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-tx-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-tx-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-tx-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-test-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-test-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-test-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-oxm-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-oxm-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-oxm-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-orm-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-orm-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-orm-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-messaging-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-messaging-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-messaging-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jms-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jms-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jms-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jdbc-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jdbc-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jdbc-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jcl-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jcl-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-jcl-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-instrument-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-instrument-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-instrument-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-expression-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-expression-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-expression-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-core-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-core-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-core-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-support-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-support-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-support-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-indexer-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-indexer-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-indexer-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-context-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-beans-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-beans-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-beans-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aspects-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aspects-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aspects-6.1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aop-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aop-6.1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aop-6.1.6-javadoc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
