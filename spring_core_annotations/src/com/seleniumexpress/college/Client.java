@@ -12,6 +12,7 @@ public class Client {
 		College bean = context.getBean("collegeBean",College.class);
 		System.out.println("The bean is created by spring " + bean);
 		bean.test();
+		
 	}
 
 }
