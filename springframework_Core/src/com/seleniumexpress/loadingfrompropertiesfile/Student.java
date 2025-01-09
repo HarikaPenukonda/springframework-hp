@@ -8,17 +8,17 @@ public class Student {
 	private String interestedCourse;
 	private String hobby;
 	
-	@Value("Admin")
+	@Value("${student.name}")
 	public void setName(String name) {
 		this.name = name;
 	}
 	
-	@Value("Python")
+	@Value("${student.interestedCourse}")
 	public void setInterestedCourse(String interestedCourse) {
 		this.interestedCourse = interestedCourse;
 	}
 	
-	@Value("Coding")
+	@Value("${student.hobby}")
 	public void setHobby(String hobby) {
 		this.hobby = hobby;
 	}
