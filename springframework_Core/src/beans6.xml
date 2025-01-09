@@ -5,6 +5,6 @@
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 		
 	<bean id="heartObjectValue" class="com.seleniumexpress.autowire.Heart"></bean>
-	<bean id="human" class="com.seleniumexpress.autowire.Human" autowire="byType">
+	<bean id="human" class="com.seleniumexpress.autowire.Human" autowire="constructor">
 	</bean>	
 </beans>
