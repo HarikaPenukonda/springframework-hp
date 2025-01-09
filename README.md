@@ -1,3 +1,15 @@
+## Annotations
+1. Components - create the object and registers that object in Spring IOC container
+2. ComponentScan - Scans the base packages and if Component annotation is found it creates and registers the object in the IOC container
+3. Configuration - Marks that particular class as a configuration file where the container reads the file and creates, registers, and manages spring beans
+4. Bean - This annotation is used to create spring bean
+5. Autowired - automatically wires the vales to their respective dependencies, automatic dependency injection
+6. Value - This annotation is used to inject values into fields, method parameters, and constructor arguments
+7. Primary - designates a bean as the default candidate when there are multiple beans of the same type exist
+8. Qualifier - Provides more granular control by specifying which bean should be implemented when multiple beans are available. Qualifier > Primary
+9. PropertySource - used in the config file to provide the location of the properties file
+10. Required - when the field is marked as required, we need to provide the value otherwise it throws an exception
+
 ## Spring-core
 1. What is Inversion of Control (IoC) in Spring, and why is it important?
 
