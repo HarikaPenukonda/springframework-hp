@@ -10,12 +10,13 @@ public class Human {
 		
 	}
 	
-	@Autowired
+	
 	public Human(Heart heart) {
 		super();
 		this.heart = heart;
 	}
-
+	
+	@Autowired
 	public void setHeart(Heart heart) {
 		this.heart = heart;
 		System.out.println("setter method called...");
