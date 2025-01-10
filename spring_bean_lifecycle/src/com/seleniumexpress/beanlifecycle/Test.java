@@ -13,6 +13,7 @@ public class Test {
 		StudentDAO bean = context.getBean("student",StudentDAO.class);
 		//dao.deleteStudentRecord(5);
 		bean.selectAllRows();
+		((ClassPathXmlApplicationContext)context).close();
 
 	}
 

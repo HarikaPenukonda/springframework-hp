@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 public class StudentDAO {
 	
@@ -84,7 +85,10 @@ public class StudentDAO {
 		
 	}
 	
-	public void close() throws SQLException {
+	@PreDestroy
+	// This method will be called before the bean is removed or destroyed from the container
+	public void destroy() throws SQLException {
+		System.out.println("inside the destroy method");
 		con.close();
 	}
 	
