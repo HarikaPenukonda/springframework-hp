@@ -6,12 +6,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import javax.annotation.PostConstruct;
+
 public class StudentDAO {
 	
 	private String driver;
 	private String url; 
 	private String userName;
 	private String password;
+	
+	Connection con;
 	
 	public void setDriver(String driver) {
 		this.driver = driver;
@@ -28,15 +32,24 @@ public class StudentDAO {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	public void selectAllRows() throws ClassNotFoundException, SQLException {
+	
+	public void databaseConnection() throws ClassNotFoundException, SQLException {
 		
 		// load the driver
 		Class.forName(driver);
 		
 		// get a connection
-		Connection con = DriverManager.getConnection(url, userName, password);
+		con = DriverManager.getConnection(url, userName, password);
 		
+	}
+	
+	@PostConstruct
+	public void init() throws ClassNotFoundException, SQLException {
+		databaseConnection();
+	}
+
+	public void selectAllRows() throws ClassNotFoundException, SQLException {
+			
 		// create a statement
 		Statement stmt = con.createStatement();
 		
@@ -57,19 +70,17 @@ public class StudentDAO {
 	
 	public void deleteStudentRecord(int student_id) throws ClassNotFoundException, SQLException {
 		
-		// load the driver
-		Class.forName(driver);
-		
-		// establish the connection
-		Connection conn = DriverManager.getConnection(url, userName, password);
-		
 		// create a statemnt
-		Statement stmt = conn.createStatement();
+		Statement stmt = con.createStatement();
 		
 		stmt.executeUpdate("delete from Food.HostelStudentInfo where student_id = " + student_id);
 		System.out.println("student id : " + student_id + " has been deleted ");
 		
-		conn.close();
+		con.close();
+	}
+	
+	public void close() throws SQLException {
+		con.close();
 	}
 	
 	

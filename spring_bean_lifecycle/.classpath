@@ -70,5 +70,6 @@
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aop-6.1.6-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-aop-6.1.6-javadoc.jar"/>
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/jars/mysql-connector-java-5.1.44.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/jars/javax.annotation-api-1.3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
