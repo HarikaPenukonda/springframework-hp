@@ -35,6 +35,8 @@ public class StudentDAO {
 			
 			System.out.println(student_id + " " + student_name + " " + hostel_fee + " " + food_type);
 		}
+		
+		con.close();
 	}
 	
 	public void deleteStudentRecord(int student_id) throws ClassNotFoundException, SQLException {
@@ -50,7 +52,10 @@ public class StudentDAO {
 		
 		stmt.executeUpdate("delete from Food.HostelStudentInfo where student_id = " + student_id);
 		System.out.println("student id : " + student_id + " has been deleted ");
+		
+		conn.close();
 	}
+	
 	
 
 }
