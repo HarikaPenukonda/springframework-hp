@@ -37,5 +37,20 @@ public class StudentDAO {
 		}
 	}
 	
+	public void deleteStudentRecord(int student_id) throws ClassNotFoundException, SQLException {
+		
+		// load the driver
+		Class.forName(driver);
+		
+		// establish the connection
+		Connection conn = DriverManager.getConnection(url, userName, password);
+		
+		// create a statemnt
+		Statement stmt = conn.createStatement();
+		
+		stmt.executeUpdate("delete from Food.HostelStudentInfo where student_id = " + student_id);
+		System.out.println("student id : " + student_id + " has been deleted ");
+	}
+	
 
 }
