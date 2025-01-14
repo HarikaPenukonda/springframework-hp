@@ -9,11 +9,12 @@ public class Test {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		StudentDAO bean = context.getBean("student",StudentDAO.class);
 		//dao.deleteStudentRecord(5);
 		bean.selectAllRows();
-		((ClassPathXmlApplicationContext)context).close();
+		//((ClassPathXmlApplicationContext)context).close();
+		context.registerShutdownHook(); // executes once the main thread ends
 
 	}
 
