@@ -14,6 +14,8 @@
 13. Controller - Creates the bean of that particular class and stores in the container also indicates that the particular class is a controller.
 14. RequestMapping - We Annotate the handler method with this annotation, used to map web requests to specific controller methods. It defines how URLs are handled by the application. Connects HTTP requests (like GET, POST) to specific Java methods in a controller.
 Handles requests based on the URL, HTTP method, headers, and more.
+15. ResponseBody - Spring annotation that tells the framework to send the method's return value directly in the HTTP response body, instead of rendering a view (like a JSP or HTML page). Converts the return value to a web-friendly format (like JSON, XML, or plain text).
+Commonly used for building RESTful APIs where data is sent instead of web pages.
 
 
 
