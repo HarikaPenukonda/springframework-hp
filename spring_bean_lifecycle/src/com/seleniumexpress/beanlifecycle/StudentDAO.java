@@ -38,7 +38,7 @@ public class StudentDAO {
 		System.out.println("setting password...");
 	}
 	
-	@PostConstruct
+	//@PostConstruct
 	public void init() throws ClassNotFoundException, SQLException {
 		System.out.println("calling the init method...");
 		databaseConnection();
@@ -89,7 +89,7 @@ public class StudentDAO {
 		con.close();
 	}
 	
-	@PreDestroy
+	//@PreDestroy
 	// This method will be called before the bean is removed or destroyed from the container
 	public void destroy() throws SQLException{
 		System.out.println("inside the destroy method");
