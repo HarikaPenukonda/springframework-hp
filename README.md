@@ -11,6 +11,13 @@
 10. Required - when the field is marked as required, we need to provide the value otherwise it throws an exception
 11. PostConstruct - Runs after the bean is created and dependencies are injected.Used to perform any initialization tasks (e.g., setting up resources).Example: Connecting to a database after the bean is ready.
 12. PreDestroy - Runs before the bean is destroyed.Used to perform cleanup tasks (e.g., closing connections or releasing resources).Example: Closing a database connection before shutting down.
+13. Controller - Creates the bean of that particular class and stores in the container also indicates that the particular class is a controller.
+14. RequestMapping - We Annotate the handler method with this annotation, used to map web requests to specific controller methods. It defines how URLs are handled by the application. Connects HTTP requests (like GET, POST) to specific Java methods in a controller.
+Handles requests based on the URL, HTTP method, headers, and more.
+15. ResponseBody - Spring annotation that tells the framework to send the method's return value directly in the HTTP response body, instead of rendering a view (like a JSP or HTML page). Converts the return value to a web-friendly format (like JSON, XML, or plain text).
+Commonly used for building RESTful APIs where data is sent instead of web pages.
+
+
 
 ## Spring-core
 1. What is Inversion of Control (IoC) in Spring, and why is it important?
