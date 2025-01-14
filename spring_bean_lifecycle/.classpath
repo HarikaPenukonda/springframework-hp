@@ -10,7 +10,7 @@
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-websocket-6.1.6.jar"/>
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-websocket-6.1.6-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-websocket-6.1.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webmvc-6.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webmvc-6.1.6.jar" sourcepath="/Users/matthewhinthorn/Downloads/spring-framework-main"/>
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webmvc-6.1.6-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webmvc-6.1.6-javadoc.jar"/>
 	<classpathentry kind="lib" path="/Users/matthewhinthorn/Downloads/spring6-jars/spring-webflux-6.1.6.jar"/>
