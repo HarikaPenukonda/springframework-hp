@@ -15,6 +15,12 @@
   <servlet>
   	<servlet-name>home-frontcontroller</servlet-name>
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	
+  	<init-param>
+  		<param-name>contextConfigLocation</param-name>
+  		<param-value>/WEB-INF/home-frontcontroller-dispatcher-servlet.xml</param-value>
+  	</init-param>
+  	
   	<load-on-startup>1</load-on-startup>
   	<!-- controls when a servlet is loaded by the web container (like Tomcat or Jetty) It specifies when the servlet should be initialized.
 	The value inside <load-on-startup> determines the order of initialization.
