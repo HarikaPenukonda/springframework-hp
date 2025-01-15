@@ -14,10 +14,10 @@ public class Siscontroller {
 		return "I love coding";
 	}
 	
-	@ResponseBody
+	
 	@RequestMapping("/book")
 	public String book() {
-		return "my favourite book is `my sisters keeper`";
+		return "book";
 	}
 
 }
