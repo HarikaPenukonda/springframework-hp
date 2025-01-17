@@ -17,6 +17,47 @@ Handles requests based on the URL, HTTP method, headers, and more.
 15. ResponseBody - Spring annotation that tells the framework to send the method's return value directly in the HTTP response body, instead of rendering a view (like a JSP or HTML page). Converts the return value to a web-friendly format (like JSON, XML, or plain text).
 Commonly used for building RESTful APIs where data is sent instead of web pages.
 
+## Spring-MVC
+1. What is the role of the DispatcherServlet in Spring MVC?
+
+2. Explain the typical workflow of a Spring MVC request.
+
+3. How do you define a controller in Spring MVC? Provide an example.
+
+4. What is the difference between @Controller and @RestController annotations?
+
+5. How does Spring handle URL mapping to controller methods?
+
+6. What is the purpose of the @RequestMapping annotation? How does it differ from @GetMapping and @PostMapping?
+
+7. How can you handle form data submission in Spring MVC?
+
+8. Explain how model data is passed from a controller to the view.
+
+9. What is the use of the Model, ModelMap, and ModelAndView objects in Spring MVC?
+
+10. How can you handle exceptions in Spring MVC?
+
+11. What is the role of the ViewResolver in Spring MVC?
+
+12. Explain how to configure a view technology (e.g., JSP, Thymeleaf) in a Spring MVC application.
+
+13. What is the difference between RedirectView and forward in Spring MVC?
+
+14. How do you handle file uploads in Spring MVC?
+
+15. What is the use of the @PathVariable and @RequestParam annotations? Provide examples.
+
+16. How can you validate form input in Spring MVC?
+
+17. Explain the purpose of HandlerInterceptor in Spring MVC.
+
+18. How do you implement RESTful web services using Spring MVC?
+
+19. What is content negotiation in Spring MVC? How is it configured?
+
+20. How can you secure a Spring MVC application?
+
 
 
 ## Spring-core
