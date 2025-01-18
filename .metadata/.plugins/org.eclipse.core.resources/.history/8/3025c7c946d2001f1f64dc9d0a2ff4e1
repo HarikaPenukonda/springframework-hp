@@ -1,0 +1,15 @@
+package com.home.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller // to indicate that this class is a controller
+public class Momcontroller {
+	
+	
+	@RequestMapping("/sugar")
+	public String getSugar() {
+		return "Hello! Can you give me some sugar. Thank you!";
+	}
+
+}

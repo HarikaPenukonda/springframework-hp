@@ -1,0 +1,12 @@
+package com.home.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class Momcontroller {
+	
+	public String getSugar() {
+		return "Hello! Can you give me some sugar.";
+	}
+
+}
