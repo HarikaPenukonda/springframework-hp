@@ -1,7 +1,0 @@
-package com.seleniumexpress.lc.config;
-
-import org.springframework.web.WebApplicationInitializer;
-
-public class LoveCalculatorApplicationInitializer implements WebApplicationInitializer {
-
-}

@@ -1,8 +1,0 @@
-127.0.0.1 - - [17/Jan/2025:19:38:50 -0600] "GET / HTTP/1.1" 404 752
-0:0:0:0:0:0:0:1 - - [17/Jan/2025:19:38:52 -0600] "GET /spring_love_calculation/ HTTP/1.1" 200 52
-0:0:0:0:0:0:0:1 - - [17/Jan/2025:19:39:01 -0600] "GET /spring_love_calculation/mywebsite.com/test HTTP/1.1" 404 802
-0:0:0:0:0:0:0:1 - - [17/Jan/2025:19:39:41 -0600] "GET /spring_love_calculation HTTP/1.1" 302 -
-0:0:0:0:0:0:0:1 - - [17/Jan/2025:19:39:41 -0600] "GET /spring_love_calculation/ HTTP/1.1" 200 52
-0:0:0:0:0:0:0:1 - - [17/Jan/2025:19:39:45 -0600] "GET /spring_love_calculation/test HTTP/1.1" 404 784
-127.0.0.1 - - [17/Jan/2025:19:50:49 -0600] "GET / HTTP/1.1" 404 752
-0:0:0:0:0:0:0:1 - - [17/Jan/2025:19:50:50 -0600] "GET /spring_love_calculation/ HTTP/1.1" 200 52

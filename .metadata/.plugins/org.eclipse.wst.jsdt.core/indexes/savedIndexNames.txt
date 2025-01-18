@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+/Users/matthewhinthorn/git/springframework-hp/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-756475835.index
-2736696671.index
-3243453899.index
-1743863124.index
-320415490.index
-298311154.index
-1011870313.index
