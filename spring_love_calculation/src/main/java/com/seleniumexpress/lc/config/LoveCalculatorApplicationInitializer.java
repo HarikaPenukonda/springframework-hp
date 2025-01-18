@@ -16,6 +16,7 @@ public class LoveCalculatorApplicationInitializer implements WebApplicationIniti
 		XmlWebApplicationContext webApplicationContext = new XmlWebApplicationContext();
 		webApplicationContext.setConfigLocation("classpath:application-config.xml");
 		
+		
 		// create a dispatcherServlet object
 		DispatcherServlet dispatcherServlet = new DispatcherServlet(webApplicationContext);
 		
@@ -26,7 +27,7 @@ public class LoveCalculatorApplicationInitializer implements WebApplicationIniti
 		myCustomServlet.setLoadOnStartup(1);
 		
 		// setting up url mapping
-		myCustomServlet.addMapping("/mywebsite.com/*");
+		myCustomServlet.addMapping("/");
 	}
 
 }
